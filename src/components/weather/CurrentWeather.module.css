@@ -1,0 +1,28 @@
+.weather__text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.currentWeather__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current__weather {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.right__spacer {
+  margin-right: 10px;
+}
+
+@media all and (max-width: 767px) {
+  .current__weather {
+    flex-direction: column;
+  }
+  .right__spacer {
+    margin-right: 0;
+  }
+}
